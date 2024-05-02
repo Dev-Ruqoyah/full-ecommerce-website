@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='max-w-screen-xl mx-auto'>
       <section className="heroSection md:px-8 ">
         <div className="md:container md:mx-auto">
             <div className="flex md:flex-row flex-col md:gap-2  ">
@@ -14,14 +15,14 @@ const HomePage = () => {
                        
                         
                         </div></a></li>
-                      <li className='shrink-0'><a href="#">Men's Fashion</a></li>
-                      <li className='shrink-0'><a href="#">Electronics</a></li>
-                      <li  className='shrink-0'><a href="#">Home & Lifestyle</a></li>
-                      <li className='shrink-0'><a href="#">Medicine</a></li>
-                      <li className='shrink-0'><a href="#">Sports & Outdoor</a></li>
-                      <li className='shrink-0'><a href="#">Baby's & Toys</a></li>
-                      <li className='shrink-0'><a href="#">Groceries & Pets</a></li>
-                      <li className='shrink-0'><a href="#">Health & Beauty</a></li>
+                      <li className='shrink-0'><Link to='#'>Men's Fashion</Link></li>
+                      <li className='shrink-0'><Link to='#'>Electronics</Link></li>
+                      <li  className='shrink-0'><Link to='#'>Home & Lifestyle</Link></li>
+                      <li className='shrink-0'><Link to='#'>Medicine</Link></li>
+                      <li className='shrink-0'><Link to='#'>Sports & Outdoor</Link></li>
+                      <li className='shrink-0'><Link to='#'>Baby's & Toys</Link></li>
+                      <li className='shrink-0'><Link to='#'>Groceries & Pets</Link></li>
+                      <li className='shrink-0'><Link to='#'>Health & Beauty</Link></li>
                     </ul>
                   </div>
               </div>
