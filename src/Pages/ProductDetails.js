@@ -4,7 +4,10 @@ import ProductCardOne from '../Components/ProductCardOne';
 import ProductDetailsCard from '../Components/ProductDetailsCard';
 import ProductDetailsImages from '../Components/ProductDetailsImages';
 import SectionLabel from '../Components/SectionLabel';
-
+import product from '../Media/red-pad.png'
+import productTwo from '../Media/keyboard.png'
+import productThree from '../Media/television.png'
+import productTfour from '../Media/speaker.png'
 const ProductDetailsPage = () => {
 
 
@@ -15,7 +18,20 @@ const ProductDetailsPage = () => {
       <ProductDetailsCard/>
     </div>
     <SectionLabel name='Related items'/>
-      <ProductCardOne/>
+
+
+
+    {/* Carousel will be used here
+    
+    */}
+      <div className='flex gap-3 overflow-hidden overflow-x-scroll'>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+      <ProductCardOne imageURL={productTwo} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+      <ProductCardOne imageURL={productThree} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+      <ProductCardOne imageURL={productTfour} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+      </div>
     </div>
   );
 };
