@@ -15,7 +15,7 @@ const ProductDetailsPage = () => {
       <ProductDetailsCard/>
     </div>
     <SectionLabel name='Related items'/>
-      <ProductCardOne/>
+      <ProductCardOne productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
     </div>
   );
 };
