@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import Countdown from "../Components/countdown";
 // import product1 from '../Media/product1.png'
@@ -6,6 +7,14 @@ const HomePage = () => {
   return (
     <div>
       {/* HERO SECTION */}
+=======
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const HomePage = () => {
+  return (
+    <div className='max-w-screen-xl mx-auto'>
+>>>>>>> 4a387a6427232ecb7c8ae8ff502b02eb2d8d80c2
       <section className="heroSection md:px-8 ">
         <div className="md:container md:mx-auto">
           <div className="flex md:flex-row flex-col md:gap-2  ">
@@ -16,6 +25,7 @@ const HomePage = () => {
                     <a href="#">
                       <div>
                         <p>Women's Fashion</p>
+<<<<<<< HEAD
                       </div>
                     </a>
                   </li>
@@ -44,6 +54,21 @@ const HomePage = () => {
                     <a href="#">Health & Beauty</a>
                   </li>
                 </ul>
+=======
+                       
+                        
+                        </div></a></li>
+                      <li className='shrink-0'><Link to='#'>Men's Fashion</Link></li>
+                      <li className='shrink-0'><Link to='#'>Electronics</Link></li>
+                      <li  className='shrink-0'><Link to='#'>Home & Lifestyle</Link></li>
+                      <li className='shrink-0'><Link to='#'>Medicine</Link></li>
+                      <li className='shrink-0'><Link to='#'>Sports & Outdoor</Link></li>
+                      <li className='shrink-0'><Link to='#'>Baby's & Toys</Link></li>
+                      <li className='shrink-0'><Link to='#'>Groceries & Pets</Link></li>
+                      <li className='shrink-0'><Link to='#'>Health & Beauty</Link></li>
+                    </ul>
+                  </div>
+>>>>>>> 4a387a6427232ecb7c8ae8ff502b02eb2d8d80c2
               </div>
             </div>
             <div className=" md:basis-4/5 bg-black md:mt-8 md:container md:py-0 py-12 text-white  md:ms-6">
