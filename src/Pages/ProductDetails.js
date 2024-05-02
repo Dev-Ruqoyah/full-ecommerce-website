@@ -9,8 +9,8 @@ const ProductDetailsPage = () => {
 
 
   return (
-    <div className='max-w-screen-xl mx-auto'>
-    <div className="container mx-auto mt-20 py-4 md:flex justify-between gap-10">
+    <div className='max-w-screen-xl mx-auto px-4 '>
+    <div className="container mx-auto mt-20 py-4  lg:flex justify-between gap-10">
       <ProductDetailsImages/>
       <ProductDetailsCard/>
     </div>

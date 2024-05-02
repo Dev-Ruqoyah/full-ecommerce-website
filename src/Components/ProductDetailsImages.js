@@ -13,7 +13,7 @@ const handleImageClick = (imageUrl) => {
 
   return (
     <>
-        <div className="md:w-2/3 md:flex gap-8">
+        <div className="lg:w-2/3 md:flex gap-8">
        
        <div className="hidden justify-between md:block w-ful">
        {smallImages.map((imageUrl, index) => (
@@ -27,9 +27,9 @@ const handleImageClick = (imageUrl) => {
          ))}
        </div>
         <div className="mb-4">
-         <img src={mainImage} alt="Main Product" className="md:h-[600px] md:w-[500px] object-cover rounded" />
+         <img src={mainImage} alt="Main Product" className="md:h-[600px] lg:w-[500px] object-cover rounded" />
        </div>
-       <div className="flex justify-between md:hidden w-ful">
+       <div className="flex justify-between md:hidden w-full">
        {smallImages.map((imageUrl, index) => (
            <img
              key={index}
