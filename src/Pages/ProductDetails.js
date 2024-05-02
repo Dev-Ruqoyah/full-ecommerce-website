@@ -7,7 +7,7 @@ const ProductDetailsPage = () => {
 
 
   return (
-    <div className="container mx-auto p-4 md:flex justify-between gap-10 max-w-screen-xl">
+    <div className="container mx-auto mt-20 p-4 md:flex justify-between gap-10 max-w-screen-xl">
       <ProductDetailsImages/>
       <ProductDetailsCard/>
     </div>
