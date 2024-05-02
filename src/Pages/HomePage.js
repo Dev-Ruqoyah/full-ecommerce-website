@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SectionLabel from '../Components/SectionLabel';
-
+import product from '../Media/red-pad.png'
+import ProductCardOne from '../Components/ProductCardOne';
 const HomePage = () => {
   return (
     <div className='max-w-screen-xl mx-auto'>
@@ -50,6 +51,11 @@ const HomePage = () => {
         </div>
       </section>
       <SectionLabel name="anything"/>
+      <div className='flex gap-3 overflow-hidden overflow-x-scroll px-4'>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+
+      </div>
     </div>
   )
 }
