@@ -1,11 +1,11 @@
 import React from 'react'
-import product from '../Media/red-pad.png'
-const ProductCardOne = ({productName,price,discountPrice,ratingNum}) => {
+
+const ProductCardOne = ({productName,price,discountPrice,ratingNum,imageURL}) => {
   return (
     <div className='mt-5'> 
-        <div className='bg-gray-200 p-4 w-64'> 
+        <div className='bg-gray-200 p-4 w-72'> 
             <span className='bg-red-500  w-7 py-1 px-3 text-white rounded'>-41%</span>
-            <img src={product} alt='Product image'/>
+            <img src={imageURL} alt='Product image'/>
         </div>
         <div>
           <h1 className='font-semibold text-lg my-3'>{productName}</h1>
