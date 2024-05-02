@@ -10,6 +10,7 @@ const HomePage = () => {
 =======
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SectionLabel from '../Components/SectionLabel';
 
 const HomePage = () => {
   return (
@@ -613,6 +614,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      <SectionLabel name="anything"/>
     </div>
   );
 };
