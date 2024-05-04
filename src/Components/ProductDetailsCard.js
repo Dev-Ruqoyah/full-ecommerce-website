@@ -4,7 +4,7 @@ const ProductDetailsCard = () => {
 
   return (
     <>
-        <div className='max-w-md'>
+        <div className='lg:max-w-md'>
             <p className='text-2xl font-semibold'>Havic HV G-92 Gamepad</p>
             <div className='flex items-center gap-1 my-3'>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-yellow-500">
