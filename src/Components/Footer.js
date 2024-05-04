@@ -5,8 +5,8 @@ const Footer = () => {
     <>
       <footer className="bg-black text-white mt-5">
         <div className="container mx-auto py-8">
-          <div className="flex justify-evenly gap-6  ">
-            <div className="exclusive flex flex-col gap-2 basis-1/2 md:basis-1/5">
+          <div className="flex md:flex-row flex-col  justify-center gap-6  ">
+            <div className="exclusive flex flex-col gap-2  md:basis-1/5">
               <h2 className="text-xl font-semibold">Exclusive</h2>
               <p className="font-semibold">Subscribe</p>
               <p>Get 10% off your first order</p>
@@ -34,7 +34,7 @@ const Footer = () => {
                 </svg>
               </div>
             </div>
-            <div className="support flex flex-col gap-2 basis-1/2 md:basis-1/5">
+            <div className="support flex flex-col gap-2  md:basis-1/5">
               <h4 className="font-semibold text-xl">Support</h4>
               <ul className="flex flex-col gap-1">
                 <li>
@@ -52,7 +52,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="support flex flex-col gap-2 basis-1/2 md:basis-1/5">
+            <div className="support flex flex-col gap-2  md:basis-1/5">
               <h4 className="font-semibold text-xl">Account</h4>
               <ul className="flex flex-col gap-1">
                 <li>
@@ -72,7 +72,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="support flex flex-col gap-2 basis-1/2 md:basis-1/5">
+            <div className="support flex flex-col gap-2  md:basis-1/5">
               <h4 className="font-semibold text-xl">Quick Link</h4>
               <ul className="flex flex-col gap-1">
                 <li>
@@ -89,7 +89,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="support flex flex-col gap-2 basis-1/2 md:basis-1/5">
+            <div className="support flex flex-col gap-2  md:basis-1/5">
               <h4 className="font-semibold text-xl">Download App</h4>
               <p>Save $3 with App Now user Only</p>
               <div className="qrcode">
@@ -103,7 +103,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="social-links flex gap-3 justify-between py-3">
+              <div className="social-links flex gap-3 justify-around py-3">
                   <img src="f.png" alt="" />
                   <img src="twitter.png" alt="" />
                   <img src="insta.png" alt="" />
