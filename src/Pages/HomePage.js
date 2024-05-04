@@ -52,8 +52,8 @@ const HomePage = () => {
       </section>
       <SectionLabel name="anything"/>
       <div className='flex gap-3 overflow-hidden overflow-x-scroll px-4'>
-      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
-      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88' discountPercentage='41'/>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88' discountPercentage='41'/>
 
       </div>
     </div>
