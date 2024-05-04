@@ -9,3 +9,12 @@
 .size-btn {
     @apply border rounded w-8 h-8 border-black font-medium uppercase
 }
+.add-to-cart-button{
+    @apply opacity-0 transition duration-150 ease-out
+}
+.product-card:hover .add-to-cart-button {
+    @apply opacity-100 ease-in
+}
+.play{
+    /* @apply background-image:url */
+}
