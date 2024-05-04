@@ -6,6 +6,7 @@ import NotFound from './Pages/NotFound'
 import Footer from './Components/Footer'
 import ProductDetails from './Pages/ProductDetails'
 
+
 const App = () => {
   return (
     <>
