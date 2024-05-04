@@ -8,21 +8,7 @@ const HomePage = () => {
   return (
     <div>
       {/* HERO SECTION */}
-<<<<<<< HEAD
       <section className="heroSection md:px-8 md:py-8 ">
-=======
-=======
-import React from 'react';
-import { Link } from 'react-router-dom';
-import SectionLabel from '../Components/SectionLabel';
-import product from '../Media/red-pad.png'
-import ProductCardOne from '../Components/ProductCardOne';
-const HomePage = () => {
-  return (
-    <div className='max-w-screen-xl mx-auto'>
->>>>>>> 4a387a6427232ecb7c8ae8ff502b02eb2d8d80c2
-      <section className="heroSection md:px-8 ">
->>>>>>> refs/remotes/origin/main
         <div className="md:container md:mx-auto">
           <div className="flex md:flex-row flex-col md:gap-2  ">
             <div className="md:basis-1/5 border-r-2  md:py-8">
@@ -2457,12 +2443,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <SectionLabel name="anything"/>
-      <div className='flex gap-3 overflow-hidden overflow-x-scroll px-4'>
-      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
-      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
-
-      </div>
     </div>
   );
 };
