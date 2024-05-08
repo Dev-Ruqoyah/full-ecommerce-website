@@ -1,4 +1,11 @@
 import React from "react";
+import qrcode from '../Media/qrcode.png'
+import applestore from '../Media/appstore.png'
+import googlestore from '../Media/playstore.png'
+import facebook from '../Media/f.png'
+import twitter from '../Media/twitter.png'
+import linkedin from '../Media/linkedin.png'
+import insta from '../Media/insta.png'
 
 const Footer = () => {
   return (
@@ -95,19 +102,19 @@ const Footer = () => {
               <div className="qrcode">
                 <div className="grid grid-cols-2 gap-2">
                   <div className="first w-full ">
-                    <img src="qrcode.png" width={'90%'} alt="" />
+                    <img src={qrcode} width={'90%'} alt="" />
                   </div>
                   <div className="second flex flex-col gap-2">
-                    <img src="playstore.png" alt="" />
-                    <img src="appstore.png" alt="" />
+                    <img src={googlestore} alt="" />
+                    <img src={applestore} alt="" />
                   </div>
                 </div>
               </div>
               <div className="social-links flex gap-3 justify-around py-3">
-                  <img src="f.png" alt="" />
-                  <img src="twitter.png" alt="" />
-                  <img src="insta.png" alt="" />
-                  <img src="linkedin.png" alt="" />
+                  <img src={facebook} alt="" />
+                  <img src={twitter} alt="" />
+                  <img src={insta} alt="" />
+                  <img src={linkedin} alt="" />
               </div>
             </div>
           </div>
