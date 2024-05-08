@@ -25,12 +25,12 @@ const ProductDetailsPage = () => {
     
     */}
       <div className='flex gap-3 overflow-hidden overflow-x-scroll'>
-      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
-      <ProductCardOne imageURL={productTwo} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
-      <ProductCardOne imageURL={productThree} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
-      <ProductCardOne imageURL={productTfour} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
-      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
-      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88'/>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88' percent='41'/>
+      <ProductCardOne imageURL={productTwo} productName='AK-900 Wired Keyboard' price='1160' discountPrice='960' ratingNum='78' percent='30'/>
+      <ProductCardOne imageURL={productThree} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88' percent='45'/>
+      <ProductCardOne imageURL={productTfour} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88' percent='21'/>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88' percent='41'/>
+      <ProductCardOne imageURL={product} productName='HAVIT HV-G92 Gamepad' price='160' discountPrice='120' ratingNum='88' percent='41'/>
       </div>
     </div>
   );
