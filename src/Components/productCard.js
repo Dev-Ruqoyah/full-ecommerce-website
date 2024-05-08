@@ -1,12 +1,12 @@
 import React from 'react';
 
-const ProductCard = ({ imageSrc, productName, currentPrice, originalPrice, discount, ratings }) => {
+const ProductCard = ({ imageSrc, productName, currentPrice,discount, ratings }) => {
   return (
     <div className="shrink-0 md:basis-1/4 pt-3 h-100 relative product-card">
       <div className="containe p-4 bg-slate-50">
-        <div className="card-header flex justify-between">
+        <div className="card-header flex justify-end">
           {discount && (
-            <div className="discount bg-red-600 items-center h-9 px-2 text-white rounded-md">
+            <div className="discount hidden bg-red-600 items-center h-9 px-2 text-white rounded-md">
               <p>{discount}</p>
             </div>
           )}
@@ -48,22 +48,16 @@ const ProductCard = ({ imageSrc, productName, currentPrice, originalPrice, disco
         </div>
         <div className="card-contents flex flex-col items-center justify-center w-full h-40 ">
           <img src={imageSrc} alt="" />
-          <button className="add-to-cart-button bg-black text-white w-full py-2 absolute bottom-20 rounded-b-md left-0.5 cursor-pointer translate-x-50">
+          <button className="add-to-cart-button bg-black text-white w-full py-2 absolute bottom-16 rounded-b-md left-0.5 cursor-pointer ">
             Add to Cart
           </button>{" "}
         </div>
       </div>
       <div className="py-2 flex flex-col items-start">
         <h4 className="text-md font-semibold">{productName}</h4>
-        <div className="prices flex gap-3">
-          <p className="text-red-600"> ${currentPrice}</p>
-          {originalPrice && (
-            <p className="text-gray-300 stroke-gray-300 line-through">
-              ${originalPrice}
-            </p>
-          )}
-        </div>
-        <div className="review flex gap-3">
+        <div className="prices flex items-center gap-6">
+          <p className="text-red-600 font-semibold"> ${currentPrice}</p>
+          <div className="review flex gap-3">
           <div className="flex items-center gap-1">
             {[...Array(ratings)].map((_, index) => (
               <svg
@@ -83,6 +77,8 @@ const ProductCard = ({ imageSrc, productName, currentPrice, originalPrice, disco
             <p className="text-gray-300">({ratings})</p>
           </div>
         </div>
+        </div>
+        
       </div>
     </div>
   );

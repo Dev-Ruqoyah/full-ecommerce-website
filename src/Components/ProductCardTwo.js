@@ -56,9 +56,9 @@ const ProductCardTwo = ({ imageSrc, productName, currentPrice, originalPrice, di
       <div className="py-2 flex flex-col items-start">
         <h4 className="text-md font-semibold">{productName}</h4>
         <div className="prices flex gap-3">
-          <p className="text-red-600"> ${currentPrice}</p>
+          <p className="text-red-600 font-semibold"> ${currentPrice}</p>
           {originalPrice && (
-            <p className="text-gray-300 stroke-gray-300 line-through">
+            <p className="text-gray-300 stroke-gray-300 line-through font-semibold">
               ${originalPrice}
             </p>
           )}
