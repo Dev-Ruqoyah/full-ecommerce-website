@@ -10,7 +10,7 @@ import insta from '../Media/insta.png'
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black text-white mt-5">
+      <footer className="bg-black text-white mt-5 ">
         <div className="container mx-auto py-8">
           <div className="flex md:flex-row flex-col  justify-center gap-6  ">
             <div className="exclusive flex flex-col gap-2  md:basis-1/5">
@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="flex justify-between items-center px-2 border ">
                 <input
                   type="email"
-                  className="border-0 bg-transparent"
+                  className="border-0 bg-transparent outline-none focus:ring-transparent"
                   name=""
                   id=""
                   placeholder="Enter your email"
