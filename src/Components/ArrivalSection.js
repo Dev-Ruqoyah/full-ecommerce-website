@@ -3,6 +3,7 @@ import Header from "./header";
 import product from '../Media/perfume.png'
 import product2 from '../Media/ps.png'
 import product3 from '../Media/women.png'
+import product4 from '../Media/speaker.png'
 const ArrivalSection = () => {
     return ( 
     <>
@@ -15,8 +16,8 @@ const ArrivalSection = () => {
             </h3>
             <div className="grid md:grid-cols-2 gap-6 grid-cols-1 container mx-auto">
               <div
-                className="play flex flex-col justify-end gap-6 md:h-screen h-full bg-no-repeat bg-black p-6 text-white "
-                style={{ backgroundImage: `url({product}) `}}
+                className="play flex flex-col justify-end gap-6 md:h-screen h-full bg-no-repeat bg-black p-6 text-white bg-cover bg-center "
+                style={{ backgroundImage: `url(${product2}) `}}
               >
                 <h4 className="text-2xl font-semibold">PlayStation 5</h4>
                 <p>
@@ -28,8 +29,8 @@ const ArrivalSection = () => {
               </div>
               <div className="grid grid-rows-2 gap-6">
                 <div
-                  className="flex flex-col justify-end gap-6 p-6 w-full bg-center bg-black border bg-no-repeat bg-black-6 text-white"
-                  style={{ backgroundImage: `url('{product3}')` }}
+                  className="flex flex-col justify-end gap-6 p-6 w-full bg-center bg-black border bg-no-repeat bg-black-6 text-white bg-cover"
+                  style={{ backgroundImage: `url('${product3}')` }}
                 >
                   <h4 className="text-2xl font-semibold">Women's Collection</h4>
                   <p>
@@ -42,7 +43,8 @@ const ArrivalSection = () => {
                 <div className="grid grid-cols-2 gap-6">
                   <div
                     className="flex flex-col justify-end gap-1 md:gap-6 p-6 w-full bg-center bg-black border bg-no-repeat bg-black-6 text-white"
-                    style={{ backgroundImage: {product2} }}
+                    style={{ backgroundImage: `url('${product4}')` }}
+                   
                   >
                     <h4 className="text-2xl font-semibold">Speakers</h4>
                     <p>Amazon Wireless Speakers </p>
@@ -52,9 +54,9 @@ const ArrivalSection = () => {
                   </div>
                   <div
                     className="flex flex-col justify-end gap-1 md:gap-6 p-6 w-full bg-center bg-black border bg-no-repeat bg-black-6 text-white"
-                    style={{ backgroundImage: `url('perfume.png')` }}
+                    style={{ backgroundImage: `url('${product}')` }}
                   >
-                    <h4 className="text-2xl font-semibold">Speakers</h4>
+                    <h4 className="text-2xl font-semibold">Perfume</h4>
                     <p>GUCCI INTENSE OUD EDP </p>
                     <div className="shop ms-1">
                       <p className="border-b-2 w-20 border-white">Shop Now</p>
